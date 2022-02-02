@@ -43,3 +43,6 @@ function animalCount(miles) {
 const animals = animalCount(30);
 
 console.log(animals);
+
+
+
