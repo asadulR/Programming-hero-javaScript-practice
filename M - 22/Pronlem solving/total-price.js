@@ -54,7 +54,6 @@ console.log(productsPrice);
 
 
 
-
 const shoppingProducts = [
     {name: 'Laptop', price: 55000, quantity: 1},
     {name: 'Shirt', price: 500, quantity: 8},

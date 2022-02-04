@@ -28,3 +28,7 @@ function woodCalculator(chairQuantity, tableQuantity, bedQuantity) {
 
 const firstNeed = woodCalculator(1, 2, 3);
 console.log('Total price is', firstNeed ,'taka.');
+
+
+
+
