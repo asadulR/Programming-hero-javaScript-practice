@@ -29,3 +29,46 @@ for(const product of products) {
 
 
 
+
+//    >>>>>>>>>>>>>>>>>>> extra excersice <<<<<<<<<<<<<<
+
+
+
+function compare(a, b) {
+    if (a == b) {   // have to use three equal sign to compare data type
+      return true;
+    } else {
+      return false;
+    }
+  }
+//   const result = compare(15, "15");
+//   console.log(result);
+
+
+
+
+  function compare(a, b) {
+    if (a.toString() === b) {     // have to use three equal sign to compare data type
+     return true;
+    } else {
+     return false;
+    }
+   }
+   
+   const result = compare(25, 25);
+   console.log(result);
+
+
+
+
+   console.log("123" + 123);
+
+
+   const array = [1, 2, 3, 4, 5, 6, 7];
+
+   for (let i = 1; i < array.length; i++) {
+    if (i == 5) {
+     continue;
+    }
+    console.log(array[i]);
+   }
