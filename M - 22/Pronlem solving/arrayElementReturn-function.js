@@ -3,7 +3,7 @@ function bestFriend (names) {
     let friendName = 0;
     let bestFriendName ;
 
-    for(let i = 0; i > names.length; i++) {
+    for(let i = 0; i < names.length; i++) {
         let name = names[i];
 
         if(name.length > friendName){
@@ -40,10 +40,14 @@ console.log("Best firend's name is", myBestFriend);
 var arr = ['Rahim', 'Raiyan', 'Tanmeen', 'Asadullah', 'Afroja Jerin', 'Asad'];
   
   function bestFriend(arr) {
-    var lgth = 0;
-    var longest;
+    if(arr.length === 0){
+        return 'enter an array'
+    }
+    else{
+        var lgth = 0;
+        var longest;
 
-    for (var i = 0; i < arr.length; i++) {
+        for (var i = 0; i < arr.length; i++) {
         let name = arr[i];
         if (name.length > lgth) {
         var lgth = name.length;
@@ -51,6 +55,7 @@ var arr = ['Rahim', 'Raiyan', 'Tanmeen', 'Asadullah', 'Afroja Jerin', 'Asad'];
         }
     }
     return longest;
+    }
   }
 
   const anotherBestFriend = bestFriend(arr);
