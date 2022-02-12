@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- Tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="text-center">
+        <h2 class="text-5xl font-semibold my-12 text-purple-600">Calculator</h2>
+    </header>
+    <main>
+        <div id="calculator" class=" mx-auto  bg-slate-600	p-5 rounded max-w-sm mb-8">
+            <div class="result my-5"><input class="w-full text-right py-4 px-2 border-2 rounded border-emerald-400 text-3xl" type="text" name="" id="output"></div>
+            <div class="grid gap-2 grid-cols-4 p-2 bg-purple-400 rounded">
+                <button class="hover:bg-violet-600 py-4 text-center text-2xl text-white bg-slate-500 rounded" id="">M+</button>
+                <button class="hover:bg-violet-600 py-4 text-center text-2xl text-white bg-slate-500 rounded" id="del">Del</button>
+                <button class="hover:bg-violet-600 py-4 text-center text-2xl text-white bg-slate-500 rounded" id="modulas">%</button>
+                <button class="hover:bg-violet-600 py-4 text-center text-2xl text-white bg-slate-500 rounded" id="reset">Reset</button>
+                
+                
+                
+                <input class="hover:bg-violet-600 py-4 text-center text-2xl hover:text-white bg-slate-500 rounded" type="button" value="1" id="one">
+                <input class="hover:bg-violet-600 py-4 text-center text-2xl hover:text-white bg-slate-500 rounded" type="button" value="2" id="two">
+                <input class="hover:bg-violet-600 py-4 text-center text-2xl hover:text-white bg-slate-500 rounded" type="button" value="3" id="three">
+                <button class="hover:bg-violet-600 py-4 text-center text-2xl text-white bg-slate-500 rounded" id="plus">+</button>
+                <input class="hover:bg-violet-600 py-4 text-center text-2xl hover:text-white bg-slate-500 rounded" type="button" value="4" id="four">
+                <input class="hover:bg-violet-600 py-4 text-center text-2xl hover:text-white bg-slate-500 rounded" type="button" value="5" id="five">
+                <input class="hover:bg-violet-600 py-4 text-center text-2xl hover:text-white bg-slate-500 rounded" type="button" value="6" id="six">
+                <button class="hover:bg-violet-600 py-4 text-center text-2xl text-white bg-slate-500 rounded" id="minus">-</button>
+                <input class="hover:bg-violet-600 py-4 text-center text-2xl hover:text-white bg-slate-500 rounded" type="button" value="7" id="seven">
+                <input class="hover:bg-violet-600 py-4 text-center text-2xl hover:text-white bg-slate-500 rounded" type="button" value="8" id="eight">
+                <input class="hover:bg-violet-600 py-4 text-center text-2xl hover:text-white bg-slate-500 rounded" type="button" value="9" id="nine">
+                <button class="hover:bg-violet-600 py-4 text-center text-2xl text-white bg-slate-500 rounded" id="multiply">*</button>
+                <input class="hover:bg-violet-600 py-4 text-center text-2xl hover:text-white bg-slate-500 rounded" type="button" value="0" id="zero">
+                <input class="hover:bg-violet-600 py-4 text-center text-2xl hover:text-white bg-slate-500 rounded" type="button" value="." id="point">
+                <button class="bg-violet-600 py-4 text-center text-2xl text-white rounded" id="equal">=</button>
+                <button class="hover:bg-violet-600 py-4 text-center text-2xl text-white bg-slate-500 rounded" id="division">/</button>
+
+            </div>
+        </div>
+        
+    </main>
+    <script src="calculation.js"></script>
+</body>
+</html>
