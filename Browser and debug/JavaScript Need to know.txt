@@ -1,0 +1,36 @@
+Important Topics Name :
+
+
+Fundamentals six:
+1. How to declare a variable using let and const
+2. How to write/ use any condition/ Multiple conditio: >, <, ===, <=, >=, &&, ||, if, else if, else
+3. Array. array methods. 
+4. loop,for loop
+5. Function
+6. object
+
+
+ES6 :
+
+1. template string.
+2. arrow function.
+3. spread operator
+4. Array methods: map, filter, find, forEach.
+5. Array and object Destructuring, optional chaining
+
+
+
+*********
+
+* JSON, Fetch, keys, values, array add or remove using dots
+* ternary operator
+* optional chaining
+*
+
+
+
+Browser API:
+
+1. local storage, session storage
+2. location API
+3. History API

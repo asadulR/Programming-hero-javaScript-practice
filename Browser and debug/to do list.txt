@@ -1,0 +1,13 @@
+1. Show output after 3.5 sec
+2. take a number using prompt. add 200. then alert the resuylt
+3. do you want to see the href? if ok, console.log href
+4. purpose of cookies. 5-7 lines in english.
+5. 3 differences between local storage and session storage.
+
+
+
+6. how javaScript run? 5-7 line in english
+7. list of things that are asynchorronous in js/browser
+8. what is event loop in js and how does it work
+9. simple website with 2 input fields and a button, product name, product er price . 		by clicking on the button product will be added on the local storage. you 	should be able to add multiple.
+10. Display products on the website. if they exist 
